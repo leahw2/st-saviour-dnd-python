@@ -25,3 +25,7 @@ if __name__ == '__main__':
     input('Press Enter to roll a d20.')
     roll = random.randint(1, 20)
     draw_d20(roll)
+print_dramatic_text("welcome to my trivia game!")
+answer = input('Question 1: What is the strongest preasure?')
+if answer== 'water':
+    print_dramatic_text('Correct')
